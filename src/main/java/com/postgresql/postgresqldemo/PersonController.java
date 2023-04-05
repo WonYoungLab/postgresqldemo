@@ -25,5 +25,8 @@ public class PersonController {
     @DeleteMapping("/deletePerson")
     public void deletePerson(long id) {
         repo.deleteById(id);
+        System.out.println("!1");
+        System.out.println("!1");
+        System.out.println("!1");
     }
 }
