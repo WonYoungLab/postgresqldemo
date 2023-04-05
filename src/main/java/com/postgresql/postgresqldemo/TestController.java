@@ -14,7 +14,6 @@ public class TestController {
         String userName = "";
         System.out.println(userName);
         System.out.println(userName);
-        System.out.println(userName);
         return userName;
     }
 }
