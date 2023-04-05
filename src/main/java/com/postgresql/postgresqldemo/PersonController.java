@@ -26,7 +26,6 @@ public class PersonController {
     public void deletePerson(long id) {
         repo.deleteById(id);
         System.out.println("!1");
-        System.out.println("!1");
-        System.out.println("!1");
+
     }
 }
