@@ -18,6 +18,7 @@ public class PersonController {
     public void addPerson(@RequestBody Person person) {
         repo.save(person);
         System.out.println("!1");
+        System.out.println("!1");
     }
 
     @DeleteMapping("/deletePerson")
